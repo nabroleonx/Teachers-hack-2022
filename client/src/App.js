@@ -22,8 +22,20 @@ function App() {
   return (
     <div className="mt-12 lg:mx-60 px-10 sm:24 md:32 lg:px-40 space-y-4">
       <header>
-        <h1 className="text-center mb-3 font-mono text-3xl text-gray-700/70">
-          Question Generator
+        <div className="flex justify-center">
+          <img
+            className="h-40 w-30"
+            src="https://pngimg.com/uploads/teacher/teacher_PNG58.png"
+            alt=""
+          />
+          <p className="h-20 font-mono border-2 border-l-gray-400 px-3 py-1 bg-gray-200">
+            “If you have to put someone on a pedestal, put teachers. They are
+            society’s heroes. –Guy Kawasaki
+          </p>
+        </div>
+
+        <h1 className="text-center mb-4 font-mono text-3xl text-gray-700/70">
+          Teachers Aid
         </h1>
         <form onSubmit={handleSubmit}>
           <label
